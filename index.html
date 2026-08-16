@@ -13,6 +13,7 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
     <nav class="menu" id="menu">
@@ -20,6 +21,7 @@
         <a href="#" class="menu-logo">VI</a>
       </div>
     </nav>
+
     <header class="capa">
       <video
         muted
@@ -28,6 +30,7 @@
         class="capa-video"
         src="assets/video-capa.mp4"
       ></video>
+
       <div class="capa-conteudo">
         <h1 class="capa-moldura">
           <img
@@ -37,21 +40,26 @@
           />
         </h1>
       </div>
+
       <div class="capa-barra">
         <div class="capa-barra-conteudo">
           <div class="capa-lancamento">
             <p class="capa-rotulo">Lançamento</p>
             <p class="capa-data">19 de Novembro de 2026</p>
           </div>
+
           <a href="#" class="botao botao-primario">Reserve agora</a>
-          <div clas="capa-plataformas">
+
+          <div class="capa-plataformas">
             <p class="capa-rotulo">Disponível em</p>
+
             <div class="lista-plataformas">
               <span class="texto-plataforma">PS5 - Xbox Series X|S</span>
             </div>
           </div>
         </div>
       </div>
+
       <div class="capa-seta">
         <img
           src="assets/seta-baixo.png"
@@ -61,9 +69,10 @@
         />
       </div>
     </header>
+
     <main>
       <section class="secao-historia">
-        <div class="conteudo-central">
+        <div class="conteudo-central aparecer">
           <p class="rotulo">História</p>
           <h2 class="historia-titulo">Vice City, EUA.</h2>
           <div class="historia-texto">
@@ -78,8 +87,9 @@
           </div>
         </div>
       </section>
+
       <section class="secao-video">
-        <div class="conteudo-central">
+        <div class="conteudo-central aparecer">
           <article>
             <div class="card-video-container">
               <p class="rotulo">Vídeos</p>
@@ -88,8 +98,10 @@
                 A maior e mais imersiva evolução da série Grand Theft Auto até o
                 momento.
               </p>
+
               <a href="#" class="botao botao-primario card-video-botao">
                 <img src="assets/icone-play.png" alt="Reproduzir vídeo" />
+
                 Ver agora
               </a>
             </div>
@@ -97,9 +109,11 @@
         </div>
       </section>
     </main>
+
     <footer class="rodape">
       <div class="conteudo-central rodape-conteudo">
         <div class="rodape-logo">GTA VI</div>
+
         <nav class="rodape-links">
           <a href="#">Corporativo</a>
           <a href="#">Privacidade</a>
@@ -110,22 +124,31 @@
             >Não vender nem compartilhar as minhas informações pessoais</a
           >
         </nav>
+
         <div class="rodape-redes">
           <a href="#" aria-label="YouTube" class="rede-social">YT</a>
+
           <a href="#" aria-label="Instagram" class="rede-social">IG</a>
+
           <a href="#" aria-label="X / Twitter" class="rede-social">X</a>
         </div>
+
         <p class="rodape-classificacao">
           Pode incluir conteúdo inapropriado para crianças. Acesse
           <a href="https://www.gov.br" target="_blank" rel="noopener noreferrer"
-            >gov.br</a>
+            >gov.br</a
+          >
           para ver informações da classificação indicativa.
         </p>
+
         <p class="rodape-direitos">
           &copy; 2026 Rockstar Games, Inc. GTA VI, Grand Theft Auto e marcas
           registradas são propriedade da Take-Two Interactive Software.
         </p>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
